@@ -39,7 +39,6 @@ public class GuestbookController {
         log.info("register get...");
     }
 
-
     @PostMapping("/register")
     public String registerPost(GuestbookDTO dto, RedirectAttributes redirectAttributes) {
 
