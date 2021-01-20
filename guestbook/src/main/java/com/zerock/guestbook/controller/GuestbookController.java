@@ -47,7 +47,7 @@ public class GuestbookController {
 
         Long gno = service.register(dto);
 
-        redirectAttributes.addFlashAttribute("mdg", gno);
+        redirectAttributes.addFlashAttribute("msg", gno);
 
         return "redirect:/guestbook/list";
     }
