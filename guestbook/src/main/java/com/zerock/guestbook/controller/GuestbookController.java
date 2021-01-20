@@ -34,6 +34,7 @@ public class GuestbookController {
         model.addAttribute("result", service.getList(pageRequestDTO));
     }
 
+
     @GetMapping("/register")
     public void register() {
         log.info("register get...");
