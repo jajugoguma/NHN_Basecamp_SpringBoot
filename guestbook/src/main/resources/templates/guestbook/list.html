@@ -18,8 +18,8 @@
             <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Gno</th>
                 <th scope="col">Title</th>
+                <th scope="col">Writer</th>
                 <th scope="col">Regdate</th>
             </tr>
             </thead>
@@ -31,7 +31,6 @@
                         [[${dto.gno}]]
                     </a>
                 </th>
-                <th scope="row">[[${dto.gno}]]</th>
                 <td>[[${dto.title}]]</td>
                 <td>[[${dto.writer}]]</td>
                 <td>[[${#temporals.format(dto.regDate, 'yyyy/MM/dd')}]]</td>
