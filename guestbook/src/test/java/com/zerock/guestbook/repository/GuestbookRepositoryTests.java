@@ -2,8 +2,12 @@ package com.zerock.guestbook.repository;
 
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.dsl.BooleanExpression;
+import com.zerock.guestbook.dto.GuestbookDTO;
+import com.zerock.guestbook.dto.PageRequestDTO;
+import com.zerock.guestbook.dto.PageResultDTO;
 import com.zerock.guestbook.entity.Guestbook;
 import com.zerock.guestbook.entity.QGuestbook;
+import org.apache.catalina.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -102,4 +106,5 @@ public class GuestbookRepositoryTests {
             System.out.println(guestbook);
         });
     }
+
 }
